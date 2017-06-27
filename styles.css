@@ -1,6 +1,35 @@
 body{
     font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
 }
 h1, h2, h3{
     font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+header, footer{
+    padding:1em 0 1em 0;
+    text-align: center;
+    color: white;
+    background-color: #263238;
+}
+header h1,
+footer p{
+    margin: 0;
+}
+header a:link{
+    color: white;
+}
+header h1 span{
+    display: inline-block;
+    padding:0.1em 0.5em;
+    border: 2px solid #FFC107;
+}
+header .contact span{
+    display: inline-block;
+    padding: 0 8px;
+    border-right: 1px solid white;
+}
+header .contact span:last-child{
+    border-right: none;
 }
