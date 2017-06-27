@@ -8,10 +8,15 @@ h1, h2, h3{
     letter-spacing: 3px;
 }
 header, footer{
-    padding: 3em 0;
     text-align: center;
     color: white;
     background-color: #263238;
+}
+header{
+    padding: 3em 0;
+}
+footer{
+    padding: 1em 0;
 }
 header h1,
 footer p{
@@ -52,6 +57,9 @@ header .contact span:last-child{
 }
 table{
     width: 100%;
+}
+table h3{
+    margin: 0;
 }
 table tr td{
     padding: 8px 0;
