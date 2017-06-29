@@ -104,3 +104,13 @@ table.interests tr td{
 .progress .progress-inner.ur{
     width: 90%;
 }
+@media screen and (max-width: 762px){
+    #container .col{
+        float: none;
+        width: 80%;
+        margin: auto;
+    }
+    #container .col.right{
+        border-left: none; 
+    }
+}
